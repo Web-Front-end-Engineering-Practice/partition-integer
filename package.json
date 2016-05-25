@@ -1,0 +1,33 @@
+{
+  "name": "partition-integer",
+  "version": "1.0.0",
+  "description": "Integer partitions",
+  "author": "yanni4night@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Web-Front-end-Engineering-Practice/partition-integer.git"
+  },
+  "license": "MIT",
+  "main": "partition-integer.js",
+  "scripts": {
+    "prepublish": "NODE_ENV=release ./node_modules/.bin/webpack --colors",
+    "build": "NODE_ENV=development ./node_modules/.bin/webpack --colors",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+   "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-check-es2015-constants": "^6.7.2",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-preset-es2015": "^6.1.18",
+    "dateformat": "^1.0.12",
+    "eslint": "^2.5.3",
+    "eslint-loader": "^1.3.0",
+    "left-pad": "^1.0.2",
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.14"
+  }
+}
